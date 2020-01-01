@@ -1,0 +1,20 @@
+.play {
+    background: white;
+    position: relative;
+}
+.play__grid-cell {
+    border: 1px solid black;
+    position: absolute;
+    box-sizing: border-box;
+}
+.play__snake-cell {
+    position: absolute;
+    background: black;
+    box-sizing: border-box;
+}
+.play__apple {
+    position: absolute;
+    box-sizing: border-box;
+    background: red;
+    border-radius: 50%;
+}
