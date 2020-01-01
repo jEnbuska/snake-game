@@ -29,7 +29,7 @@ export const snakeReducerDefaultState: SnakeReducerState = {
     intent: RIGHT,
     apple: [7, 0],
     crash: false,
-    gridSize: 10,
+    gridSize: 30,
     ended: false,
     ticks: 0,
     points: 0,

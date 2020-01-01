@@ -5,13 +5,13 @@ import Settings from '../Settings/Settings';
 import './Game.css'
 
 const Game: ComponentType = () => {
-  const [tickGap, setTickGap] = useState(300);
+  const [tickGap, setTickGap] = useState(120);
     const [state, dispatch] = useReducer(snakeReducer, snakeReducerDefaultState);
     useKeyboardMovementListener(dispatch);
     const ref = usePlayTickDispatcher(dispatch, tickGap);
   return (
       <div className="game">
-          <div ref={ref} tabIndex={-1}>
+          <div ref={ref} tabIndex={-1} className="game__play-wrapper">
               <Play {...state}/>
           </div>
           <Settings tickGap={tickGap} setTickGap={setTickGap} gameState={state}/>

@@ -14,7 +14,5 @@
 }
 .play__apple {
     position: absolute;
-    box-sizing: border-box;
     background: red;
-    border-radius: 50%;
 }

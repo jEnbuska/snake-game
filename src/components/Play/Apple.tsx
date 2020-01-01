@@ -6,10 +6,11 @@ type AppleProps = Pick<SnakeReducerState, 'apple'>
 const Apple: ComponentType<AppleProps> = memo(({apple}) => {
     const [x, y] = apple;
     const style = {
-        left: x * CELL_SIZE + CELL_SIZE / 4,
-        width: CELL_SIZE / 2,
-        height: CELL_SIZE / 2,
-        top: y * CELL_SIZE + CELL_SIZE / 4,
+        left: x * CELL_SIZE,
+        width: CELL_SIZE,
+        height: CELL_SIZE,
+        top: y * CELL_SIZE,
+        borderRadius: CELL_SIZE / 4,
     };
     return <span style={style} className="play__apple"/>;
 });

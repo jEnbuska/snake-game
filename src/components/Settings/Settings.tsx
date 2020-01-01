@@ -13,7 +13,7 @@ const Settings: ComponentType<SettingsProps> = ({tickGap, setTickGap, gameState}
         <div className="settings">
             <label>
                 Tick gap {tickGap}ms
-                <input type="range" min={100} max={600} step="100" value={tickGap} onChange={onTickGapChange} />
+                <input type="range" min={40} max={200} step="20" value={tickGap} onChange={onTickGapChange} />
             </label>
             <span>
                 Ended: {`${gameState.ended}`}

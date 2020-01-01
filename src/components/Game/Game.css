@@ -5,3 +5,6 @@
     position: relative;
     padding: 16px;
 }
+.game__play-wrapper {
+    outline: none;
+}
