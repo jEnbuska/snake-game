@@ -1,2 +1,3 @@
+<img width="571" alt="Screenshot 2021-09-20 at 21 00 21" src="https://user-images.githubusercontent.com/11061511/134297190-f5cceed4-cc73-4441-bccd-bfeb01170c14.png">
+
 npm ci && npm start
-![Screenshot 2021-09-22 at 9 56 21](https://user-images.githubusercontent.com/11061511/134297062-857ae3e7-32a8-4f31-aa03-2ac9ed4a524a.png)
